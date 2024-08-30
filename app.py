@@ -228,7 +228,7 @@ def main():
                 
                 
     if task == "Yahoo Finance":
-        stock_symbol = st.text_input("Enter a stock symbole, e.g. MSFT.")
+        stock_symbol = st.text_input("Enter a stock symbol, e.g. MSFT.")
         if not stock_symbol: st.stop()
         yahoo_connector = YahooFinanceConnector(stock_symbol)
         yahoo_df = SmartDataframe(yahoo_connector, config={"response_parser": OutputParser})
