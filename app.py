@@ -9,7 +9,7 @@ from pandasai.llm import OpenAI
 from pandasai.llm import GoogleGemini
 from pandasai.helpers.openai_info import get_openai_callback
 from pandasai.responses.response_parser import ResponseParser
-from google.cloud import storage, bigquery
+from google.cloud import storage
 
 
 class OutputParser(ResponseParser):
