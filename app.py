@@ -245,6 +245,5 @@ if __name__ == '__main__':
     PANDASAI_API_KEY = os.environ.get('PANDASAI_API_KEY')
     GOOGLE_API_KEY = os.environ.get('GOOGLE_API_KEY')
     projectid = os.environ.get('GOOG_PROJECT')
-    client = bigquery.Client(project=projectid, location="us-central1")
     matplotlib.use("Agg", force=True)
     main()
