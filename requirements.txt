@@ -5,4 +5,3 @@ pandasai
 pandasai[excel]
 pandasai[connectors]
 tiktoken
-yaml
