@@ -1,6 +1,7 @@
-matplotlib
+pandas
 pandasai
 pandasai[excel]
 pandasai[connectors]
 tiktoken
 pyyaml
+matplotlib
