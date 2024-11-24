@@ -4,9 +4,7 @@
 import os, csv, matplotlib, tiktoken, streamlit as st, pandas as pd
 from pandasai import SmartDataframe
 from pandasai.connectors import PandasConnector
-from pandasai.connectors.yahoo_finance import YahooFinanceConnector
 from pandasai.llm import OpenAI
-from pandasai.llm import GoogleGemini
 from pandasai.helpers.openai_info import get_openai_callback
 from pandasai.responses.response_parser import ResponseParser
 
